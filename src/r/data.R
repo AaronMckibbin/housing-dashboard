@@ -17,7 +17,7 @@ required_packages <- c(
 )
 
 if (!running_in_github_actions) {
-  
+   # nolint: trailing_whitespace_linter.
   options(
     repos = c(
       CRAN = "https://cran.rstudio.com/"

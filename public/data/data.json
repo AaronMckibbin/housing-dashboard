@@ -1,0 +1,207 @@
+{
+  "RDLENGLGD": {
+    "label": "Road Lengths by Class",
+    "updated": "2025-11-26",
+    "subject": 157,
+    "product": "RNRL",
+    "variables": [
+      {
+        "code": "STATISTIC",
+        "name": "Statistic",
+        "values": {
+          "LNGTHKM": "Total length of roads",
+          "PCTLGTH": "Percentage of total length of road class"
+        }
+      },
+      {
+        "code": "TLIST(A1)",
+        "name": "Financial Year",
+        "values": {
+          "2019/20": "2019/20",
+          "2020/21": "2020/21",
+          "2021/22": "2021/22",
+          "2022/23": "2022/23",
+          "2023/24": "2023/24",
+          "2024/25": "2024/25"
+        }
+      },
+      {
+        "code": "LGD2014",
+        "name": "Local Government District",
+        "values": {
+          "N09000001": "Antrim and Newtownabbey",
+          "N09000002": "Armagh City, Banbridge and Craigavon",
+          "N09000003": "Belfast",
+          "N09000004": "Causeway Coast and Glens",
+          "N09000005": "Derry City and Strabane",
+          "N09000006": "Fermanagh and Omagh",
+          "N09000007": "Lisburn and Castlereagh",
+          "N09000008": "Mid and East Antrim",
+          "N09000009": "Mid Ulster",
+          "N09000010": "Newry, Mourne and Down",
+          "N09000011": "Ards and North Down",
+          "N92000002": "Northern Ireland"
+        }
+      },
+      {
+        "code": "CLASS",
+        "name": "Road Class",
+        "values": {
+          "MWAY": "Motorway",
+          "ADUAL": "A Roads (dual)",
+          "ASINGL": "A Roads (single)",
+          "BROAD": "B Roads",
+          "CROAD": "C Roads",
+          "UROAD": "Unclassified",
+          "ALLRD": "All Road Type"
+        }
+      }
+    ]
+  },
+  "SCANNERLGD": {
+    "label": "Condition of Roads by Roads Class",
+    "updated": "2025-11-26",
+    "subject": 157,
+    "product": "RNRC",
+    "variables": [
+      {
+        "code": "STATISTIC",
+        "name": "Statistic",
+        "values": {
+          "GOOD": "Good",
+          "AVERAGE": "Average",
+          "POOR": "Poor"
+        }
+      },
+      {
+        "code": "TLIST(A1)",
+        "name": "Financial Year",
+        "values": {
+          "2019/20": "2019/20",
+          "2020/21": "2020/21",
+          "2021/22": "2021/22",
+          "2022/23": "2022/23",
+          "2023/24": "2023/24",
+          "2024/25": "2024/25"
+        }
+      },
+      {
+        "code": "LGD2014",
+        "name": "Local Government District",
+        "values": {
+          "N09000001": "Antrim and Newtownabbey",
+          "N09000002": "Armagh City, Banbridge and Craigavon",
+          "N09000003": "Belfast",
+          "N09000004": "Causeway Coast and Glens",
+          "N09000005": "Derry City and Strabane",
+          "N09000006": "Fermanagh and Omagh",
+          "N09000007": "Lisburn and Castlereagh",
+          "N09000008": "Mid and East Antrim",
+          "N09000009": "Mid Ulster",
+          "N09000010": "Newry, Mourne and Down",
+          "N09000011": "Ards and North Down",
+          "N92000002": "Northern Ireland"
+        }
+      },
+      {
+        "code": "CLASS",
+        "name": "Road Class",
+        "values": {
+          "ACLASS": "A Class",
+          "BCLASS": "B Class",
+          "CCLASS": "C Class"
+        }
+      }
+    ]
+  },
+  "SDRLGD": {
+    "label": "Surface Defects Repaired",
+    "updated": "2025-11-26",
+    "subject": 157,
+    "product": "RNRSD",
+    "variables": [
+      {
+        "code": "STATISTIC",
+        "name": "Statistic",
+        "values": {
+          "SDRLGD": "Surface Defects Repaired"
+        }
+      },
+      {
+        "code": "TLIST(A1)",
+        "name": "Financial Year",
+        "values": {
+          "2019/20": "2019/20",
+          "2020/21": "2020/21",
+          "2021/22": "2021/22",
+          "2022/23": "2022/23",
+          "2023/24": "2023/24",
+          "2024/25": "2024/25"
+        }
+      },
+      {
+        "code": "LGD2014",
+        "name": "Local Government District",
+        "values": {
+          "N09000001": "Antrim and Newtownabbey",
+          "N09000002": "Armagh City, Banbridge and Craigavon",
+          "N09000003": "Belfast",
+          "N09000004": "Causeway Coast and Glens",
+          "N09000005": "Derry City and Strabane",
+          "N09000006": "Fermanagh and Omagh",
+          "N09000007": "Lisburn and Castlereagh",
+          "N09000008": "Mid and East Antrim",
+          "N09000009": "Mid Ulster",
+          "N09000010": "Newry, Mourne and Down",
+          "N09000011": "Ards and North Down",
+          "N92000002": "Northern Ireland"
+        }
+      }
+    ]
+  },
+  "SDILGD": {
+    "label": "Surface Defects Instructed",
+    "updated": "2025-11-26",
+    "subject": 157,
+    "product": "RNRSD",
+    "variables": [
+      {
+        "code": "STATISTIC",
+        "name": "Statistic",
+        "values": {
+          "SDI": "Surface Defects Instructed"
+        }
+      },
+      {
+        "code": "TLIST(A1)",
+        "name": "Financial Year",
+        "values": {
+          "2019/20": "2019/20",
+          "2020/21": "2020/21",
+          "2021/22": "2021/22",
+          "2022/23": "2022/23",
+          "2023/24": "2023/24",
+          "2024/25": "2024/25"
+        }
+      },
+      {
+        "code": "LGD2014",
+        "name": "Local Government District",
+        "values": {
+          "N09000001": "Antrim and Newtownabbey",
+          "N09000002": "Armagh City, Banbridge and Craigavon",
+          "N09000003": "Belfast",
+          "N09000004": "Causeway Coast and Glens",
+          "N09000005": "Derry City and Strabane",
+          "N09000006": "Fermanagh and Omagh",
+          "N09000007": "Lisburn and Castlereagh",
+          "N09000008": "Mid and East Antrim",
+          "N09000009": "Mid Ulster",
+          "N09000010": "Newry, Mourne and Down",
+          "N09000011": "Ards and North Down",
+          "N92000002": "Northern Ireland"
+        }
+      }
+    ]
+  }
+}
